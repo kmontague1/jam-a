@@ -1,0 +1,937 @@
+/***********************
+
+	About Page CSS
+	
+***********************/
+
+#h2about {
+	padding-top: 0px;
+	text-align: center;
+	font-size: 4em;
+	color: #fff;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+#aboutheader {
+	padding-top: 100px;
+}
+
+#aboutheader p {
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 2em;
+	white-space: pre-line;
+	word-wrap: break-word;
+}
+
+#aboutush1text, #ourteamh1text {
+	padding-top: 175px;
+}
+
+#aboutus1{
+	background: url("../img/aboutus1.jpg");
+	width: 45%;
+	height: 400px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	margin: 0 0 0 35px;
+	padding: 0;
+	border: solid white 2px;
+}
+
+#aboutus2{
+	background: url("../img/ourteam.jpg");
+	width: 45%;
+	height: 400px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	margin: -35px 35px 0px 0;
+	padding: 0 0 0px;
+	border: solid white 2px;
+}
+
+#footerabout {
+	margin-top: 500px;
+	border-top: 50px solid #3c2f2f;
+}
+
+#aboutnav{
+	margin-top: -2px;
+}
+
+#spacing {
+	padding-bottom: 200px;
+}
+
+.subtext {
+	float: left;
+	padding-left: 53%;
+	margin: 50px 0px;
+	font-size: 36px;
+	color: white;
+	max-width: 45%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.subtext2 {
+	float: left;
+	max-width: 45%;
+	margin: -177px 0 0 0;
+	color: white;
+	font-size: 36px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	
+	
+}
+/***********************
+
+	Footer CSS
+	
+***********************/
+
+
+footer {
+	margin: 50px auto;
+	background: #4b3832;
+	height: 150px;
+	margin-top: -25px;
+	margin-bottom: -50px;
+}
+
+.fa-snapchat-ghost:hover {
+	background-color: yellow;
+	transition: 1s;
+}
+
+.fa-instagram:hover {
+	background-color: #bc2a8d;
+	transition: 1s;
+}
+
+.fa-facebook:hover {
+	background-color: #3b5998;
+	transition: 1s;
+}
+
+.fa-twitter:hover {
+	background-color: #00aced;
+	transition: 1s;
+}
+
+.fa{
+	margin: 5px 2px;
+	padding: 10px;
+	color: white;
+	background-color: #3c2f2f;
+}
+
+footer li {
+	display: inline;
+}
+
+#copyrite {
+	text-align: center;
+	margin: 20px;
+	color: white;
+}
+
+
+footer {
+	margin: 50px auto;
+	background: #4b3832;
+	height: 150px;
+	margin-top: -25px;
+	margin-bottom: -50px;
+	border-top: 75px solid #3c2f2f;
+	padding-bottom: 10px;
+}
+
+
+#space {
+	margin-left: 38%;
+	padding: 10px 20px 10px 18px;
+}
+
+#space2{
+	padding: 10px 13px;
+}
+footer li {
+	display: inline;
+}
+
+#copyrite {
+	text-align: center;
+	margin: 20px;
+	color: white;
+}
+
+/**********************
+
+General Decoration 
+
+***********************/
+
+* {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+body {
+	background: #be9b7b;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+/***********************
+
+	Map CSS
+	
+***********************/
+
+#map {
+	width: 100%;
+	margin-bottom: -10px;
+	height: 300px;
+} 
+
+article h6 {
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,1),
+				 0px 8px 13px rgba(0,0,0,0.3),
+				 0px 18px 23px rgba(0,0,0,0.3);
+	margin-bottom: -5px;
+}
+
+#mapping {
+	margin-right: -8px;
+	margin-left: -8px;
+}
+
+article {
+	width: 100.55%;
+}
+
+article p {
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+}
+
+article a{
+	color: white
+}
+
+#email::before {
+	content: url(../img/Mail.png);
+	margin-right: 5px;
+}
+
+#phone::before {
+	content: url(../img/AWESOME.png);
+	margin-right: 5px;
+}
+/***********************
+
+	Heading CSS
+	
+***********************/
+
+
+#h2index{
+	text-align: center;
+	height: 700px;
+	background: linear-gradient(transparent 70%, #be9b7b), url("../img/backdropcoffeecup.jpg");
+	background-size: 100% 85%;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 0 1px 1px #bbb,
+		0 2px 0 #999, 
+		0 3px 0 #888, 
+		0 4px 0 #777, 
+		0 5px 0 #666, 
+		0 6px 0 #555, 
+		0 7px 0 #444, 
+		0 8px 0 #333, 
+		0 9px 7px #302314;
+	margin: -80px -7px 0px -8px;
+	border-bottom: solid 20px #854442;
+	font-size: 64px;
+	width: 100.56%;
+}
+
+#picturetext {
+	padding-top: 600px;
+}
+/********************************
+
+	Home Page Main Content CSS
+	
+*******************************/
+
+h3 a {
+	color: white;
+}
+
+#sub1{
+	background: url("../img/menu.jpg");
+	width: 49.7%;
+	height: 300px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+	border: solid white 2px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+#sub2{
+	background: url("../img/gallery.jpg");
+	width: 49.7%;
+	height: 300px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 0px;
+	padding: 0px;
+	border: solid white 2px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+#sub3{
+	background: url("../img/bandroom.jpg");
+	width: 49.7%;
+	height: 300px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 0px;
+	padding: 0px;
+	border: solid white 2px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+#sub4{
+	background: url("../img/about.jpg");
+	width: 49.7%;
+	height: 300px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 0px;
+	padding: 0px;
+	border: solid white 2px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+#sub5{
+	background: url("../img/contact.jpg");
+	width: 49.7%;
+	height: 300px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 0px;
+	padding: 0px;
+	border: solid white 2px;
+	margin-bottom: 50px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+#sub6{
+	background: url("../img/merchbg.jpg");
+	width: 49.7%;
+	height: 300px;
+	background-size: 100% 100%;
+	box-shadow: 0 16px 12px -6px black;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 0px;
+	padding: 0px;
+	border: solid white 2px;
+	margin-bottom: 50px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+/***********************
+
+	Navigation CSS
+	
+***********************/
+
+nav a:link {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: white;
+}
+
+nav a:hover {
+	color: #be9b7b;
+}
+
+nav h1 {
+	float: right;
+	color: white;
+	font-size: 32px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+
+nav {
+	background: linear-gradient(#3c2f2f, #4b3832 );
+	padding: 20px 5px 0px;
+	border-bottom: solid 30px #854442;
+	overflow: auto;
+	margin: 15px -7px 0 -8px;
+	box-shadow: 0 20px 16px -8px black;
+	position: fixed;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+.navigation {
+	margin-right: 20px;
+	font-size: 26px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	display: inline;
+}
+
+#img1 {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	float: right;
+	margin: 0 5px 15px 25px;
+}
+
+/*********************
+PAGE:CONTACT
+**********************/
+#spacing3 {
+	padding-top: 200px;
+	margin-bottom: 50px;
+}
+
+#contact-nav {
+	margin-top: 0px;
+}
+
+.info1 {
+	color: white;
+	font-size: 36px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	margin-left: -30px;
+	margin-bottom: 25px;
+}
+
+.info1 a {
+	text-decoration: none;	
+	color: white;
+}
+
+#contact-address::before{
+	content: url(../img/arrow.png);
+	margin-right: 25px;
+	margin-left: 14px;
+}
+
+#contact-mail::before {
+	content: url(../img/mail01.png);
+	margin-right: 20px;
+}
+
+#contact-phone::before {
+	content: url(../img/phone.png);
+	margin-right: 23px;
+}
+
+#map-contact {
+	width: 45%;
+	float: right;
+	margin: -676px 0 0 55%;
+	height: 676px;
+}
+
+#contact-info01 {
+	color: white;
+	margin: -110px 0 0;
+	text-align: center;
+	font-size: 48px;
+	line-height: 200px;
+	text-shadow: 0 1px 1px #bbb,
+		0 2px 0 #999, 
+		0 3px 0 #888, 
+		0 4px 0 #777, 
+		0 5px 0 #666, 
+		0 6px 0 #555, 
+		0 7px 0 #444, 
+		0 8px 0 #333, 
+		0 9px 7px #302314;
+	background: #4b3832;
+	height: 200px;
+}
+
+#contact-info02 {
+	color: white;
+	font-size: 86px;
+	margin-left: 50px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+
+}
+
+#space04{
+	margin-top:-40px;
+}
+
+.times {
+	margin-left: 65px;
+	font-size: 24px;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/*********************
+PAGE: GALLERY
+**********************/
+
+#gallerynav {
+	margin: -43px -10px;
+}
+
+#galleryh1 {
+	padding: 200px 0 0;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	font-size: 64px;
+	background: linear-gradient(transparent, #be9b7b), url("../img/brownbg.jpg");
+	width: 100%;
+	height: 200px;
+
+}
+
+#footergallery {
+	margin-bottom: -25px;
+	border-top: solid 50px #3c2f2f ;
+	padding-bottom: 20px;
+}
+
+#galleryitems1 {
+	color: white;
+	font-size: 64px;
+	line-height: 300px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background: url("../img/lounge.jpg");
+	border: solid white 2px;
+	padding-left: 25px;
+	margin-left: -35px;
+	margin-bottom: 50px;
+	margin-top: -25px;
+	display: cover;
+	background-size: cover;
+}
+
+#galleryitems2 {
+	color: white;
+	font-size: 64px;
+	line-height: 300px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background: url("../img/baristabar.jpg");
+	border: solid white 2px;
+	padding-left: 25px;
+	margin-left: -35px;
+	margin-bottom: 50px;
+	margin-top: -25px;
+	background-size: cover;
+}
+
+#galleryitems3 {
+	color: white;
+	font-size: 64px;
+	line-height: 300px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background: url("../img/coffeebar.jpg");
+	border: solid white 2px;
+	padding-left: 25px;
+	margin-left: -35px;
+	margin-bottom: 50px;
+	margin-top: -25px;
+	background-size: cover;
+}
+
+#galleryitems4 {
+	color: white;
+	font-size: 64px;
+	line-height: 300px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background: url("../img/treats.jpg");
+	background-size: 100% 100%;
+	border: solid white 2px;
+	padding-left: 25px;
+	margin-left: -35px;
+	margin-bottom: 50px;
+	margin-top: -25px;
+	background-size: cover;
+}
+
+#galleryitems5 {
+	color: white;
+	font-size: 64px;
+	line-height: 300px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background: url("../img/tableseating.jpg");
+	background-size: 100% 100%;
+	border: solid white 2px;
+	padding-left: 25px;
+	margin-left: -35px;
+	margin-bottom: 100px;
+	margin-top: -25px;
+	background-size: cover;
+}
+
+/*********************
+PAGE: EVENTS
+**********************/
+
+#eventsnav {
+	margin-top: 0px;
+}
+
+#eventsheader {
+	font-size: 7em;
+	text-align: center;
+	padding-top: 165px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	color: white;
+}
+
+#footerevents {
+	border-top: solid 50px #3c2f2f ;
+}
+
+#micnight {
+	color: white;
+	background-color: #4b3832;
+	margin: 50px 50px 75px;
+	width: 90%;
+	height: 300px;
+	box-shadow: 0 20px 16px -8px black;
+	border: 4px solid #3c2f2f;
+}
+
+#micnightimg {
+	width: 30%;
+	height: 300px;
+}
+
+#micnight p {
+	margin: -295px 400px;
+	font-size: 36px;
+	width: 65%;
+}
+
+#happyhour {
+	color: white;
+	background-color: #4b3832;
+	margin: 25px 50px 75px;
+	width: 90%;
+	height: 300px;
+	box-shadow: 0 20px 16px -8px black;
+	border: 4px solid #3c2f2f;
+}
+
+#happyhourimg {
+	width: 30%;
+	height: 300px;
+}
+
+#happyhour p {
+	margin: -295px 400px;
+	font-size: 36px;
+	width: 65%;
+}
+
+
+
+/*********************
+PAGE: MENU
+**********************/
+
+
+
+#mainheader{
+	font-size: 86px;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	margin: 150px 0 -10px;
+	text-align: center;
+}
+
+#footermenu{
+	margin-top: 50px;
+	border-top: solid 50px #3c2f2f;
+}
+
+#menunav {
+	margin-top: -155px;
+}
+
+.foodcategories {
+	font-size: 24px;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	margin-bottom: -20px;
+}
+
+.fooditems {
+	font-size: 18px;
+	margin-bottom: -10px;
+}
+
+#FOOD {
+	font-size: 63px;
+	text-align: left;
+	margin-left: 19%;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.fooddesc {
+	max-width: 100%;
+	margin-bottom: -20px;
+}
+
+.bgcolor {
+	height: 100px;
+	width: 100%;
+}
+
+#foodspace li {
+	margin-bottom: -45px;
+}
+
+#rightdood {
+	width: 30%;
+	float: right;
+	margin-right: 200px;
+	margin-top: -3150px;
+}
+
+#leftdood {
+	width: 30%;
+	margin-left: 210px;
+}
+
+#drinkhead {
+	font-size: 63px;
+	margin-left: 12%;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.drinkdesc {
+		max-width: 100%;
+	margin-bottom: -20px;
+}
+
+.drinkitems {
+	font-size: 18px;
+	margin-bottom: -10px;
+}
+
+.drinkcategories {
+	font-size: 24px;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	margin-bottom: 0;
+	margin-left: 50px;
+}
+
+.drinksizes {
+	margin-top: 30px;
+	font-size: 18px;
+	margin-bottom: -45px;
+	margin-left: 190px;
+}
+
+/*********************
+PAGE: MERCH
+**********************/
+
+#mug {
+	width: 600px;
+	height: 600px;
+	border: solid white 3px;
+	border-radius: 50%;
+	padding-bottom: -500px;
+	box-shadow: 0 32px 24px -12px black;
+}
+
+#merchnav {
+	margin-top: -200px;
+}
+
+#space03 {
+	margin-top: 200px;
+	padding-bottom: 900px;
+}
+
+
+.merchhead a{
+	text-align: center;
+	color: white;
+	font-size: 118px;
+	margin-top: -25px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-decoration: underline;
+	float: right;
+	margin-right: 170px;
+}
+
+
+#tshirt {
+	width: 600px;
+	height: 600px;
+	border: solid black 3px;
+	border-radius: 50%;
+	box-shadow: 0 32px 24px -12px black;
+}
+
+#rightdood1 {
+	float: right;
+}
+
+#leftdood1 {
+	float: left;
+}
+
+#merchfooter {
+	border-top: 50px #3c2f2f solid;
+	padding-bottom: 10px;
+}
+
+#mugderp {
+	color: white;
+	font-size: 36px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-align: left;
+}
+
+#tshirtderp {
+	color: white;
+	font-size: 36px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.2),
+				 0px 18px 23px rgba(0,0,0,0.2);
+	text-align: left;
+}
